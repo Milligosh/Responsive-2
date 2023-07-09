@@ -1,0 +1,693 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family:'Overpass' ,'Ubuntu','DM Sans', sans-serif;
+}
+.section1{
+    color:#FFF;
+
+}
+
+.container{
+    padding:56px 24px 110px 24px;
+    }
+
+.mobile-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.blogr{
+    width: 82px;
+    height: 32px;
+}
+.hamburger{
+    width: 32px;
+    height: 18px;  
+}
+.responsive-top{
+    display: none;
+}
+.merge{
+    display: flex;
+    flex-direction: column;
+    gap:115px;
+}
+.toptext{
+    display: flex;
+    flex-direction: column;
+}
+.toptext h3{
+    max-width: 920px;
+    width:100%;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Overpass';
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+.toptext p{
+    max-width: 423px;
+    width:100%;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Overpass';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 0 auto;
+}
+.button2{
+    display: flex;
+    flex-direction: row;
+    gap:16px;
+    justify-content: center;
+    margin:48px auto
+}
+.start{
+    width: 137px;
+    height: 48px;
+    border-radius: 28px;
+    background: #FFF;
+    border: none;
+    color: #FF505C;
+    text-align: right;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 13px; 
+}
+.learn{
+    width: 137px;
+    height: 48px;
+    border-radius: 28px;
+    border: 1px solid #FFF;
+    color:#fff;
+    background-color: #FF7B86;
+    text-align: right;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-right: 20px;
+    
+
+}
+
+.firstpic img{
+    max-width: 1440px;
+    width: 100%;
+    max-height: 600px;
+    position: absolute;
+    top:0px;
+    z-index: -1;
+}
+.section2{
+    padding:100px 24px 100px 24px;
+}
+.part2{
+    display: flex;
+    flex-direction: column;
+    gap:92px;
+}
+.image2{
+    max-width: 642px;
+    width: 100%;
+    
+}
+.image-two{
+    position: relative;
+    z-index: 1;
+    max-width: 642px;
+    width:100%;
+    max-height: 427px;
+    height: 100%;
+}
+.ellipse{
+    max-width: 680px;
+    width:100%;
+    position:absolute;
+    right:10px;
+    bottom:1px;
+    left: 10px;
+    opacity: 0.2344;
+   
+    
+    
+}
+.designed{
+    color: #1F3E5A;
+    text-align: center;
+    font-family: 'Overpass';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.84px;
+}
+.textSection{
+    display: flex;
+    flex-direction: column;
+    gap:101px;
+    margin: 0 auto;
+    /*max-width: 1440px;
+    width: 100%;
+    max-height: 3394px;
+    height: 100%;*/
+}
+.sentences1{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.sectiontext{
+    display:flex ;
+    flex-direction: column;
+    gap:16px;
+    
+}
+.sectiontext h3{
+    color: #1F3E5A;
+    text-align: center;
+    font-family: Overpass SemiBold;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+   
+}
+.sectiontext p{
+    color: #4C5862;
+    text-align: center;
+    font-family: Overpass;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    max-width: 540px;
+    width:100%;
+    margin:0 auto;
+}
+.section3{
+    padding:0px 24px 220px 24px;
+    position: relative;
+}
+.phones img{
+    
+    max-width: 472px;
+    width:100%;
+    max-height: 499px;
+    height: 100%;
+    
+}
+.phones{
+    display: flex;
+    justify-content: center;
+}
+
+.phonesSide{
+    display: flex;
+    flex-direction: column;
+    gap:48.31px;
+    max-height: 600px;
+    height: 100%;
+}
+
+.phonesSentence{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+}
+.phonesSentence h3{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Overpass';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.2px;
+    width: 100%;
+    height: 100%;
+    
+}
+.phonesSentence p{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    max-width: 540px;
+    width: 100%;
+    
+}
+    
+.gradient2 img{
+    position: absolute;
+    top:110px;
+    left:0px;
+    max-width: 1440px;
+    width:100%;
+    max-height: 725px;
+    height: 100%;
+    z-index: -1; 
+}
+.section4{
+    padding:156px 24px 125px 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.desktopside img{
+    max-width: 699px;
+    width: 100%;
+    max-height: 403px;
+    height: 100%; 
+}
+.desktopText{
+    max-width: 504px;
+    width: 100%;
+    max-height: 416px;
+    height: 100%;
+}
+.desktop{
+    display: flex;
+    flex-direction: column;
+    gap:115px;
+}
+.desktopText{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+}
+.deskText{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+.deskText h3{
+    color: #1F3E5A;
+    text-align: center;
+    font-family: 'Overpass';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    max-width: 540px;
+    width: 100%;
+    max-height: 41px;
+    height: 100%;
+}
+.deskText p{
+    color: #4C5862;
+    text-align: center;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    max-width:540px ;
+    width:100% ;
+    height:100% ;
+}
+footer{
+    background-color: #24242C;
+    border-radius: 0px 100px 0px 0px;
+    padding: 75px 137px;
+    max-width: 1440px;
+    width:100%;
+    height: 100%;
+}
+.downBlogr{
+    color: #ffffff;
+    display: flex;
+    justify-content:center;
+    max-width: 101px;
+    width: 100%;
+    max-height: 40px;
+    height: 100%;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap:72px;
+}
+.linkss{
+    display: flex;
+    flex-direction: column;
+    gap:40px
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    gap:21px;
+    justify-content: center;
+}
+ul{
+display: flex;
+flex-direction: column;
+margin: 0 auto;
+}
+.list h4{
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 33px;
+}
+ul a{
+    color: #FFF;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    opacity: 0.75;
+    text-decoration: none;
+}
+
+
+
+
+@media screen and (min-width:1200px) {
+    .hamburger{
+        display: none;
+    }
+    .container{
+     padding:63px 167px 155px 167px;
+     }
+     .responsive-top{
+     display: block;
+     }
+     .top-contents{
+        display: flex;
+        flex-direction: row;   
+        gap:64px;  
+     }
+     .responsive-top{
+        display:flex;
+        flex-direction:row ;
+        gap:300px
+     }
+     .links{
+        display: flex;
+        flex-direction: row;
+        gap:48px;
+        align-items:start;
+        margin: 8px auto;
+       
+     }
+     .links a{
+        color:#FFF;
+        text-decoration: none;
+        font-family: 'Ubuntu';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+     }
+     .connect:hover{
+        text-decoration: underline;
+        cursor: pointer;
+     }
+     
+     .buttons{
+        display: flex;
+        flex-direction: row;
+        gap:32px;
+
+     }
+     .two{
+        width: 137px;
+        height: 35px;
+        border-radius: 28px;
+        background: #FF7B86;
+        cursor: pointer;
+        border: none;
+        color: #FFF;
+        text-align: right;
+        font-family: Ubuntu;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+            
+     }
+     .buttons p{
+        margin: 8px auto;
+     }
+     .start{
+        width: 137px;
+        height: 48px;
+        border-radius: 28px;
+        background: #FF7B86;;
+        border: none;
+        color: #FFF;
+        text-align: right;
+        font-family: 'Ubuntu';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        cursor: pointer;
+        padding-right: 13px; 
+    }
+    .learn{
+        width: 137px;
+        height: 48px;
+        border-radius: 28px;
+        border: 1px solid #FFF;
+        color:#FF7B86;
+        background-color: #FFF;
+        text-align: right;
+        font-family: 'Ubuntu';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-right: 20px;
+        cursor: pointer;
+    
+    }
+     .toptext h3{
+        color: #FFF;
+        text-align: center;
+        font-family: 'Overpass';
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -1.92px;
+     }
+    .toptext p{
+        color: #FFF;
+        text-align: center;
+        font-family: Overpass;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        display: flex; 
+    }
+.button2{
+    display: flex;
+    justify-content: center;
+}
+ .textSection{
+    display: flex;
+    flex-direction: row-reverse;
+    
+ }
+ .sectiontext h3{
+    color: #1F3E5A;
+    font-family: 'Overpass';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+ }
+ .sectiontext p{
+    color: #4C5862;
+    font-family: Overpass;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+ }
+ .part2{
+    display: flex;
+    flex-direction: column;
+    gap:93px;
+ }
+ .image-two{
+    position: relative;
+    z-index: 1;
+    
+}
+.ellipse{
+
+    position:absolute;
+    right:10px;
+    top:-62px;
+    left: 10px;
+    opacity: 0.2344;
+    z-index: -1;
+}
+    .sentences1{
+        display: flex;
+        flex-direction: column;
+        gap:64px;
+    }
+    .section3{
+        padding:100px 0px 0px 165px;
+    }
+    
+.phonesSide{
+display: flex;
+flex-direction: row;
+}
+.gradient2 img{
+max-width: 1440px;
+width: 100%;
+max-height: 400px;
+height: 100%;
+}
+
+.phonesSentence{
+    padding: 111px 165px 111px 20px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.phonesSentence p{
+    color: #FFF;
+    font-family: Overpass;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+.phonesSentence h3{
+    color: #FFF;
+font-family: 'Overpass';
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -1.2px;
+white-space: nowrap;
+}
+.desktop{
+    display: flex;
+    flex-direction: row;
+    gap:207px;
+}
+.section4{
+    padding: 301px 165px 308px 0px;
+}
+.deskText h3{
+    color: #1F3E5A;
+    font-family: 'Overpass';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    display: flex;
+    align-items: center ;
+}
+.deskText p{
+    color: #4C5862;
+    font-family: 'Overpass';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    text-align: left; 
+}
+.desktopText{
+    display: flex;
+    flex-direction: column;
+    gap:64px;
+}
+
+.battery{
+    color: #4C5862;
+font-family: Overpass;
+font-size: 16px;
+font-style: normal;
+font-weight: 300;
+line-height: 28px;
+letter-spacing: 0.5px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    gap:184px
+}
+footer{
+    max-width: 1440px;
+    width:100%;
+    height: 100%;
+    padding:70px 165px;
+    
+}
+.linkss{
+    display: flex;
+    flex-direction: row;
+    gap:184px;
+}
+.list h4{
+    color: #FFF;
+font-family: Ubuntu;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: 33px;
+}
+ul a{
+    color: #FFF;
+font-family: 'Ubuntu';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 33px;
+opacity: 0.75;
+}
+.pricing:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.list ul{
+    max-width: 255px;
+    width: 100%;
+    max-height: 165px;
+    height: 100%;
+}
+}
